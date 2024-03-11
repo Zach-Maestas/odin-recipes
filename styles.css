@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+a {
+    display: block;
+}
+
+.main-info {
+    width: 30%;
+    min-height: auto;
+    border: 5px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: azure;
+}
+
+.main-info.mushroom-info{
+    padding: 25px;
+}
+
+.mushroom-body {
+    height: 150vh;
+}
+
+
+.main-info img {
+    max-width: 75%;
+    height: auto;
+    margin: auto; 
+}
+
+.odin-logo {
+    height: 175px;
+    width: 175px;
+}
